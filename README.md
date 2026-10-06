@@ -3,8 +3,6 @@ Nuestra aplicacion es un ejemplo claro de como la vision artificial puede person
 
 <img width="1365" height="767" alt="0_VIAv1_working" src="https://github.com/user-attachments/assets/d91fb2ad-a95c-45c2-a3d4-861a5f3e2a7d" />
 
----
-
 [![Demo en YouTube](https://img.shields.io/badge/▶_Ver_demo-YouTube-red)](https://www.youtube.com/watch?v=7pjkqY5xVAE)
 
 ## Resumen del video: Este video no solo presenta el desarrollo y funcionamiento de nuestra aplicación de visión artificial diseñada para detectar el uso correcto de elementos de protección personal (EPP) en ambientes laborales; También mostramos y destacamos las particularidades de entrenar modelos personalizados adaptados a las necesidades específicas de cada empresa, así como las capacidades y limitaciones del sistema actual. Asimismo, se adelantan mejoras futuras en la 2dqa versión basadas en inteligencia artificial.
@@ -57,11 +55,29 @@ por ejemplo, cuando la persona está de espaldas o con partes del cuerpo ocultas
 ### 4. Construcción y Entrenamiento de Modelos Personalizados
 Se explica detalladamente el proceso de entrenamiento de un modelo propio a partir de videos que reflejan la realidad y particularidad de una empresa.
 - Se crea una entidad o "empresa" en la aplicación para organizar los datos.
+
+<img width="954" height="534" alt="A_training" src="https://github.com/user-attachments/assets/9c16570a-d67a-41e0-ae6e-9c2827eddc7c" />
+
 - Se carga el video con duración variable, idealmente con más de 200 fotogramas para un buen dataset.
+
+<img width="953" height="534" alt="B_training" src="https://github.com/user-attachments/assets/63c40f21-a873-41e5-b9e7-e7d861be33ae" />
+  
 - Se aplica un modelo básico para generar detecciones iniciales (cajas delimitadoras) que luego se revisan y corrigen manualmente.
+
+<img width="953" height="534" alt="C_training" src="https://github.com/user-attachments/assets/c50dd1dc-1eef-4920-9863-f5c455df440f" />
+
 - Se pueden crear clases nuevas para elementos específicos que no reconocen los modelos genéricos, por ejemplo, cascos con viseras laterales o modelos particulares de antiparras.
 - Cada fotograma es revisado y las detecciones corregidas: quitar falsos positivos y agregar elementos faltantes.
 - El proceso entero de generación de un modelo para aproximadamente 300 fotogramas toma alrededor de 60 minutos.
+
+<img width="954" height="540" alt="D_training" src="https://github.com/user-attachments/assets/c7a4527b-2870-4b94-ba01-b004c00f785b" />
+
+<img width="953" height="540" alt="E_training" src="https://github.com/user-attachments/assets/39a7975e-8a04-4cd4-9635-e4d80530a95b" />
+
+<img width="951" height="540" alt="F_training" src="https://github.com/user-attachments/assets/fcb54ce1-3ac9-44fe-9ae9-50eca6631b13" />
+
+<img width="953" height="539" alt="G_training" src="https://github.com/user-attachments/assets/ad0f21ef-a362-4ee6-8895-024fb647f020" />
+
 El modelo resultante ofrece mayor adaptabilidad y precisión para la empresa usuaria; O sea, la personalización del modelo de visión artificial con videos reales de la empresa es crucial para obtener detecciones efectivas y adaptadas al contexto.
 La calidad y estabilidad de las cámaras influye directamente en la precisión y reducción de falsos positivos.
 El enfoque en filtro inteligente de eventos y uso de índices de confiabilidad mejora la fiabilidad del sistema.
@@ -126,3 +142,6 @@ Esto destaca el camino hacia soluciones más inteligentes y predictivas en segur
 
 ## Conclusión
 Este video es un ejemplo claro de cómo la visión artificial puede personalizarse y optimizarse para aplicaciones reales en seguridad industrial, combinando eficiencia técnica, usabilidad y adaptación a contextos específicos para mejorar la protección del personal y la gestión de riesgos.
+
+# Venta / Sopporte técnico: 
+prof.martintorres@educ.ar
